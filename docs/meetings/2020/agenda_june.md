@@ -13,6 +13,12 @@
     - I encourage all team members of pyDARN to sign up on the DAWG mailing list. Please note the mailing list is used sparingly so you will not be spammed with this. It will just help organize high-level meetings 
     - You will also be invited to DAWG-internal private repo which will be an excellent holding place for pyDARN internal documentation :) 
 
+2. **Citing the pyDARN**:
+- At the CEDAR workshop we talk about how to cite software packages. This discussion lead to how to remind users. Options are: 
+    - Add DOI to the plot image
+    - ADD pyDARN logo to the plot image 
+    - Add DOI information as a WARNING on the output of the plot
+
 2. **IO in pyDARN**
 - Separate, yes or no?
 - When to separate? 
