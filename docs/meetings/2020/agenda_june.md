@@ -14,37 +14,39 @@
     - You will also be invited to DAWG-internal private repo which will be an excellent holding place for pyDARN internal documentation :) 
     - As following I hope to make meetings before each minor/major release and any time there is a discussion to be had.
 
-3. Thoughts on where meeting notes should be kept?
+2. Thoughts on where meeting notes should be kept?
 - DAWG website
 - pyDARN website (or both)
-- Wiki
+- **Wiki**
+- DAWG repo 
 
-4. **Citing the pyDARN**:
+3. **Citing the pyDARN**:
 - Check out Zenodo PR to ensure your information is correct. Do we agree on the top devs get first/second/... X authorship?
 - At the CEDAR workshop we talk about how to cite software packages. This discussion lead to how to remind users. Options are: 
     - Add DOI to the plot image
     - ADD pyDARN logo to the plot image 
-    - Add DOI information as a WARNING on the output of the plot
+    - **Add DOI information as a WARNING on the output of the plot** 
+    - **Add to pydarn --help**
 
-5. **IO in pyDARN**
-    - Separate, yes or no?
-    - When to separate? 
-    - Name of the IO package? 
+4. **IO in pyDARN**
+- Separate, yes or no? **YES**
+- When to separate? **Now**
+- Name of the IO package? **pyDARNio**
 
-6. Upcoming release 1.2:
-    - Where are we at with Fan plots?
-    - Do we want it in 1.2 or hold off?
+5. **Upcoming release 1.2**:
+- Where are we at with Fan plots?
+- Do we want it in 1.2 or hold off? hold off
 
-7. **Development process**
+6. **Development process**
 - How to manage projects, tasks, workflow, PR, and issues? 
 - Release guidelines
 - Any other comments/suggestions? 
 
-8. **Future directions**
-- future plots 
-- future features
-- future clean up
-- What do we want in the next minor release? 
-- What is our goal? 
+7. **Future directions**
+- future plots: Noise detection plots, convection maps, fan plots
+- future features: slant ranges
+- future clean up: nothing said
+- What do we want in the next minor release? fan plots 
+- What is our goal? seperate from IO and focuse on fan plots
 
-9. **Other business** 
+8. **Other business** 
