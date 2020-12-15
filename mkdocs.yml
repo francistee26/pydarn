@@ -22,6 +22,7 @@ nav:
             - Power plots: user/power.md
             - ACF plots: user/acf.md
         - Logging: user/logging.md
+        - Advanced Examples: user/examples.md
     - pyDARN Team:
         - Pull Requests:
             - Testing: dev/testing.md
