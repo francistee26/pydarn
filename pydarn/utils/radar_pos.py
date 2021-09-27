@@ -18,6 +18,7 @@
 # Modifications:
 #   2020-04-20 Marina Schmidt converted the above link to python and changed
 #              variable and function names to readability
+#   2021-09-14 Francis Tholley removed virtual height models to another file
 #
 # Disclaimer:
 # pyDARN is under the LGPL v3 license found in the root directory LICENSE.md
@@ -276,10 +277,10 @@ def geocentric_coordinates(radar_lat: float, radar_lon: float,
     """
     if virtual_height_type == VH_types.CHISHAM:
         x_height = chisham(slant_range)
-                 
+
     if virtual_height_type == VH_types.STANDARD_VIRTUAL_HEIGHT:
         x_height = standard_virtual_height(slant_range, cell_height)
-        
+
     # calculate the radius over the earth underneath
     # the radar and range gate cell
     rlat, rlon, r_radar, delta = geodetic2geocentric(radar_lat, radar_lon)
